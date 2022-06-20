@@ -1,0 +1,578 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     soybean
+Instances:    683
+Attributes:   36
+              date
+              plant-stand
+              precip
+              temp
+              hail
+              crop-hist
+              area-damaged
+              severity
+              seed-tmt
+              germination
+              plant-growth
+              leaves
+              leafspots-halo
+              leafspots-marg
+              leafspot-size
+              leaf-shread
+              leaf-malf
+              leaf-mild
+              stem
+              lodging
+              stem-cankers
+              canker-lesion
+              fruiting-bodies
+              external-decay
+              mycelium
+              int-discolor
+              sclerotia
+              fruit-pods
+              fruit-spots
+              seed
+              mold-growth
+              seed-discolor
+              seed-size
+              shriveling
+              roots
+              class
+Test mode:    split 33.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.3 seconds
+
+=== Predictions on test split ===
+
+    inst#     actual  predicted error prediction
+        1 17:cyst-nematode 17:cyst-nematode       0.754 
+        2 4:phytophthora-rot 4:phytophthora-rot       0.927 
+        3 11:purple-seed-stain 11:purple-seed-stain       0.591 
+        4 14:alternarialeaf-spot 14:alternarialeaf-spot       0.342 
+        5 8:brown-spot 8:brown-spot       0.918 
+        6 13:phyllosticta-leaf-spot 13:phyllosticta-leaf-spot       0.497 
+        7 5:brown-stem-rot 5:brown-stem-rot       0.915 
+        8 12:anthracnose 12:anthracnose       0.621 
+        9 7:downy-mildew 8:brown-spot   +   0.309 
+       10 8:brown-spot 8:brown-spot       0.968 
+       11 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.997 
+       12 13:phyllosticta-leaf-spot 13:phyllosticta-leaf-spot       0.35 
+       13 14:alternarialeaf-spot 14:alternarialeaf-spot       0.445 
+       14 10:bacterial-pustule 10:bacterial-pustule       0.283 
+       15 5:brown-stem-rot 5:brown-stem-rot       0.289 
+       16 11:purple-seed-stain 11:purple-seed-stain       0.342 
+       17 4:phytophthora-rot 4:phytophthora-rot       0.947 
+       18 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.539 
+       19 2:charcoal-rot 2:charcoal-rot       0.433 
+       20 11:purple-seed-stain 11:purple-seed-stain       0.324 
+       21 7:downy-mildew 7:downy-mildew       0.346 
+       22 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.631 
+       23 6:powdery-mildew 6:powdery-mildew       0.666 
+       24 6:powdery-mildew 18:2-4-d-injury   +   0.357 
+       25 4:phytophthora-rot 4:phytophthora-rot       0.925 
+       26 18:2-4-d-injury 18:2-4-d-injury       0.231 
+       27 14:alternarialeaf-spot 14:alternarialeaf-spot       0.947 
+       28 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.928 
+       29 2:charcoal-rot 2:charcoal-rot       0.808 
+       30 12:anthracnose 12:anthracnose       0.863 
+       31 8:brown-spot 8:brown-spot       0.977 
+       32 4:phytophthora-rot 4:phytophthora-rot       0.757 
+       33 4:phytophthora-rot 4:phytophthora-rot       0.936 
+       34 6:powdery-mildew 6:powdery-mildew       0.511 
+       35 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.924 
+       36 14:alternarialeaf-spot 14:alternarialeaf-spot       0.713 
+       37 9:bacterial-blight 9:bacterial-blight       0.311 
+       38 12:anthracnose 12:anthracnose       0.823 
+       39 10:bacterial-pustule 10:bacterial-pustule       0.254 
+       40 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.925 
+       41 4:phytophthora-rot 4:phytophthora-rot       0.623 
+       42 4:phytophthora-rot 4:phytophthora-rot       0.707 
+       43 5:brown-stem-rot 5:brown-stem-rot       0.807 
+       44 5:brown-stem-rot 5:brown-stem-rot       0.249 
+       45 8:brown-spot 8:brown-spot       0.67 
+       46 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.417 
+       47 12:anthracnose 12:anthracnose       0.344 
+       48 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.619 
+       49 4:phytophthora-rot 4:phytophthora-rot       0.938 
+       50 4:phytophthora-rot 4:phytophthora-rot       0.726 
+       51 7:downy-mildew 15:frog-eye-leaf-spot   +   0.383 
+       52 2:charcoal-rot 2:charcoal-rot       0.719 
+       53 14:alternarialeaf-spot 15:frog-eye-leaf-spot   +   0.371 
+       54 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.7 
+       55 6:powdery-mildew 6:powdery-mildew       0.575 
+       56 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.743 
+       57 18:2-4-d-injury 18:2-4-d-injury       0.423 
+       58 15:frog-eye-leaf-spot 8:brown-spot   +   0.387 
+       59 17:cyst-nematode 17:cyst-nematode       0.703 
+       60 18:2-4-d-injury 5:brown-stem-rot   +   0.25 
+       61 9:bacterial-blight 9:bacterial-blight       0.55 
+       62 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.925 
+       63 14:alternarialeaf-spot 14:alternarialeaf-spot       0.947 
+       64 4:phytophthora-rot 4:phytophthora-rot       0.641 
+       65 2:charcoal-rot 5:brown-stem-rot   +   0.441 
+       66 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.739 
+       67 4:phytophthora-rot 4:phytophthora-rot       0.67 
+       68 8:brown-spot 8:brown-spot       0.977 
+       69 11:purple-seed-stain 11:purple-seed-stain       0.376 
+       70 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.939 
+       71 8:brown-spot 8:brown-spot       0.5 
+       72 13:phyllosticta-leaf-spot 8:brown-spot   +   0.425 
+       73 18:2-4-d-injury 4:phytophthora-rot   +   0.173 
+       74 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.697 
+       75 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.853 
+       76 8:brown-spot 8:brown-spot       0.985 
+       77 4:phytophthora-rot 4:phytophthora-rot       0.776 
+       78 11:purple-seed-stain 11:purple-seed-stain       0.188 
+       79 14:alternarialeaf-spot 14:alternarialeaf-spot       0.792 
+       80 12:anthracnose 12:anthracnose       0.841 
+       81 19:herbicide-injury 4:phytophthora-rot   +   0.252 
+       82 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.446 
+       83 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.502 
+       84 5:brown-stem-rot 5:brown-stem-rot       0.945 
+       85 6:powdery-mildew 6:powdery-mildew       0.421 
+       86 8:brown-spot 8:brown-spot       0.985 
+       87 12:anthracnose 12:anthracnose       0.864 
+       88 14:alternarialeaf-spot 14:alternarialeaf-spot       0.506 
+       89 9:bacterial-blight 9:bacterial-blight       0.385 
+       90 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.833 
+       91 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.397 
+       92 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.451 
+       93 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.485 
+       94 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.432 
+       95 14:alternarialeaf-spot 14:alternarialeaf-spot       0.657 
+       96 14:alternarialeaf-spot 14:alternarialeaf-spot       0.693 
+       97 13:phyllosticta-leaf-spot 8:brown-spot   +   0.668 
+       98 8:brown-spot 8:brown-spot       0.953 
+       99 8:brown-spot 8:brown-spot       0.592 
+      100 4:phytophthora-rot 4:phytophthora-rot       0.923 
+      101 7:downy-mildew 7:downy-mildew       0.627 
+      102 5:brown-stem-rot 5:brown-stem-rot       0.877 
+      103 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.412 
+      104 8:brown-spot 8:brown-spot       0.512 
+      105 14:alternarialeaf-spot 14:alternarialeaf-spot       0.858 
+      106 14:alternarialeaf-spot 15:frog-eye-leaf-spot   +   0.588 
+      107 14:alternarialeaf-spot 14:alternarialeaf-spot       0.828 
+      108 8:brown-spot 8:brown-spot       0.667 
+      109 19:herbicide-injury 19:herbicide-injury       0.433 
+      110 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.674 
+      111 4:phytophthora-rot 4:phytophthora-rot       0.724 
+      112 14:alternarialeaf-spot 14:alternarialeaf-spot       0.847 
+      113 10:bacterial-pustule 10:bacterial-pustule       0.51 
+      114 8:brown-spot 8:brown-spot       0.647 
+      115 12:anthracnose 12:anthracnose       0.324 
+      116 14:alternarialeaf-spot 14:alternarialeaf-spot       0.835 
+      117 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.658 
+      118 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.8 
+      119 18:2-4-d-injury 19:herbicide-injury   +   0.164 
+      120 5:brown-stem-rot 5:brown-stem-rot       0.918 
+      121 4:phytophthora-rot 4:phytophthora-rot       0.691 
+      122 2:charcoal-rot 2:charcoal-rot       0.471 
+      123 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.405 
+      124 14:alternarialeaf-spot 14:alternarialeaf-spot       0.792 
+      125 4:phytophthora-rot 4:phytophthora-rot       0.962 
+      126 4:phytophthora-rot 4:phytophthora-rot       0.964 
+      127 8:brown-spot 8:brown-spot       0.535 
+      128 2:charcoal-rot 5:brown-stem-rot   +   0.391 
+      129 2:charcoal-rot 2:charcoal-rot       0.412 
+      130 8:brown-spot 8:brown-spot       0.506 
+      131 4:phytophthora-rot 4:phytophthora-rot       0.937 
+      132 12:anthracnose 12:anthracnose       0.916 
+      133 6:powdery-mildew 6:powdery-mildew       0.304 
+      134 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.935 
+      135 18:2-4-d-injury 18:2-4-d-injury       0.21 
+      136 4:phytophthora-rot 4:phytophthora-rot       0.892 
+      137 4:phytophthora-rot 4:phytophthora-rot       0.925 
+      138 10:bacterial-pustule 10:bacterial-pustule       0.424 
+      139 8:brown-spot 14:alternarialeaf-spot   +   0.368 
+      140 11:purple-seed-stain 15:frog-eye-leaf-spot   +   0.186 
+      141 14:alternarialeaf-spot 15:frog-eye-leaf-spot   +   0.488 
+      142 17:cyst-nematode 17:cyst-nematode       0.631 
+      143 8:brown-spot 8:brown-spot       0.327 
+      144 5:brown-stem-rot 5:brown-stem-rot       0.786 
+      145 4:phytophthora-rot 4:phytophthora-rot       0.571 
+      146 4:phytophthora-rot 4:phytophthora-rot       0.847 
+      147 5:brown-stem-rot 5:brown-stem-rot       0.334 
+      148 8:brown-spot 8:brown-spot       0.933 
+      149 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.613 
+      150 8:brown-spot 8:brown-spot       0.732 
+      151 2:charcoal-rot 2:charcoal-rot       0.409 
+      152 8:brown-spot 8:brown-spot       0.721 
+      153 8:brown-spot 8:brown-spot       0.395 
+      154 8:brown-spot 8:brown-spot       0.336 
+      155 8:brown-spot 8:brown-spot       0.55 
+      156 13:phyllosticta-leaf-spot 8:brown-spot   +   0.466 
+      157 8:brown-spot 8:brown-spot       0.886 
+      158 4:phytophthora-rot 4:phytophthora-rot       0.637 
+      159 12:anthracnose 12:anthracnose       0.902 
+      160 8:brown-spot 8:brown-spot       0.947 
+      161 4:phytophthora-rot 4:phytophthora-rot       0.87 
+      162 5:brown-stem-rot 5:brown-stem-rot       0.521 
+      163 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.743 
+      164 14:alternarialeaf-spot 14:alternarialeaf-spot       0.88 
+      165 14:alternarialeaf-spot 14:alternarialeaf-spot       0.807 
+      166 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.603 
+      167 5:brown-stem-rot 5:brown-stem-rot       0.528 
+      168 8:brown-spot 8:brown-spot       0.598 
+      169 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.711 
+      170 12:anthracnose 12:anthracnose       0.856 
+      171 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.614 
+      172 6:powdery-mildew 6:powdery-mildew       0.355 
+      173 18:2-4-d-injury 18:2-4-d-injury       0.386 
+      174 2:charcoal-rot 2:charcoal-rot       0.322 
+      175 14:alternarialeaf-spot 14:alternarialeaf-spot       0.45 
+      176 14:alternarialeaf-spot 14:alternarialeaf-spot       0.322 
+      177 14:alternarialeaf-spot 14:alternarialeaf-spot       0.928 
+      178 18:2-4-d-injury 5:brown-stem-rot   +   0.203 
+      179 4:phytophthora-rot 4:phytophthora-rot       0.768 
+      180 4:phytophthora-rot 4:phytophthora-rot       0.816 
+      181 14:alternarialeaf-spot 14:alternarialeaf-spot       0.674 
+      182 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.985 
+      183 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.96 
+      184 14:alternarialeaf-spot 14:alternarialeaf-spot       0.818 
+      185 2:charcoal-rot 5:brown-stem-rot   +   0.394 
+      186 8:brown-spot 8:brown-spot       0.657 
+      187 7:downy-mildew 7:downy-mildew       0.371 
+      188 12:anthracnose 12:anthracnose       0.75 
+      189 4:phytophthora-rot 4:phytophthora-rot       0.739 
+      190 14:alternarialeaf-spot 14:alternarialeaf-spot       0.682 
+      191 11:purple-seed-stain 11:purple-seed-stain       0.426 
+      192 14:alternarialeaf-spot 15:frog-eye-leaf-spot   +   0.4 
+      193 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.936 
+      194 14:alternarialeaf-spot 14:alternarialeaf-spot       0.522 
+      195 12:anthracnose 12:anthracnose       0.711 
+      196 14:alternarialeaf-spot 14:alternarialeaf-spot       0.701 
+      197 8:brown-spot 8:brown-spot       0.566 
+      198 10:bacterial-pustule 10:bacterial-pustule       0.439 
+      199 8:brown-spot 8:brown-spot       0.356 
+      200 9:bacterial-blight 9:bacterial-blight       0.419 
+      201 13:phyllosticta-leaf-spot 8:brown-spot   +   0.287 
+      202 14:alternarialeaf-spot 14:alternarialeaf-spot       0.69 
+      203 9:bacterial-blight 9:bacterial-blight       0.406 
+      204 4:phytophthora-rot 4:phytophthora-rot       0.809 
+      205 10:bacterial-pustule 10:bacterial-pustule       0.485 
+      206 14:alternarialeaf-spot 14:alternarialeaf-spot       0.563 
+      207 4:phytophthora-rot 4:phytophthora-rot       0.88 
+      208 14:alternarialeaf-spot 14:alternarialeaf-spot       0.689 
+      209 14:alternarialeaf-spot 14:alternarialeaf-spot       0.379 
+      210 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.982 
+      211 14:alternarialeaf-spot 14:alternarialeaf-spot       0.91 
+      212 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.987 
+      213 2:charcoal-rot 2:charcoal-rot       0.816 
+      214 5:brown-stem-rot 5:brown-stem-rot       0.243 
+      215 8:brown-spot 8:brown-spot       0.372 
+      216 4:phytophthora-rot 4:phytophthora-rot       0.768 
+      217 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.686 
+      218 5:brown-stem-rot 5:brown-stem-rot       0.487 
+      219 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.97 
+      220 14:alternarialeaf-spot 14:alternarialeaf-spot       0.815 
+      221 8:brown-spot 8:brown-spot       0.87 
+      222 6:powdery-mildew 6:powdery-mildew       0.271 
+      223 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.702 
+      224 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.419 
+      225 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.393 
+      226 19:herbicide-injury 19:herbicide-injury       0.568 
+      227 7:downy-mildew 14:alternarialeaf-spot   +   0.287 
+      228 8:brown-spot 8:brown-spot       0.87 
+      229 4:phytophthora-rot 4:phytophthora-rot       0.582 
+      230 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.717 
+      231 14:alternarialeaf-spot 14:alternarialeaf-spot       0.762 
+      232 7:downy-mildew 15:frog-eye-leaf-spot   +   0.26 
+      233 8:brown-spot 8:brown-spot       0.853 
+      234 4:phytophthora-rot 4:phytophthora-rot       0.88 
+      235 14:alternarialeaf-spot 14:alternarialeaf-spot       0.409 
+      236 8:brown-spot 8:brown-spot       0.909 
+      237 12:anthracnose 12:anthracnose       0.583 
+      238 5:brown-stem-rot 5:brown-stem-rot       0.397 
+      239 8:brown-spot 8:brown-spot       0.933 
+      240 10:bacterial-pustule 10:bacterial-pustule       0.75 
+      241 8:brown-spot 8:brown-spot       0.403 
+      242 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.458 
+      243 12:anthracnose 12:anthracnose       0.858 
+      244 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.936 
+      245 12:anthracnose 12:anthracnose       0.892 
+      246 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.596 
+      247 11:purple-seed-stain 11:purple-seed-stain       0.699 
+      248 4:phytophthora-rot 4:phytophthora-rot       0.772 
+      249 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.857 
+      250 12:anthracnose 12:anthracnose       0.917 
+      251 8:brown-spot 8:brown-spot       0.856 
+      252 4:phytophthora-rot 4:phytophthora-rot       0.793 
+      253 13:phyllosticta-leaf-spot 13:phyllosticta-leaf-spot       0.264 
+      254 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.96 
+      255 4:phytophthora-rot 4:phytophthora-rot       0.752 
+      256 18:2-4-d-injury 18:2-4-d-injury       0.244 
+      257 5:brown-stem-rot 5:brown-stem-rot       0.781 
+      258 8:brown-spot 8:brown-spot       0.869 
+      259 8:brown-spot 8:brown-spot       0.629 
+      260 12:anthracnose 12:anthracnose       0.866 
+      261 9:bacterial-blight 9:bacterial-blight       0.437 
+      262 12:anthracnose 12:anthracnose       0.87 
+      263 4:phytophthora-rot 4:phytophthora-rot       0.828 
+      264 14:alternarialeaf-spot 14:alternarialeaf-spot       0.802 
+      265 13:phyllosticta-leaf-spot 8:brown-spot   +   0.66 
+      266 8:brown-spot 8:brown-spot       0.545 
+      267 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.86 
+      268 9:bacterial-blight 10:bacterial-pustule   +   0.42 
+      269 8:brown-spot 8:brown-spot       0.908 
+      270 4:phytophthora-rot 4:phytophthora-rot       0.787 
+      271 14:alternarialeaf-spot 14:alternarialeaf-spot       0.844 
+      272 14:alternarialeaf-spot 14:alternarialeaf-spot       0.39 
+      273 12:anthracnose 12:anthracnose       0.599 
+      274 6:powdery-mildew 6:powdery-mildew       0.776 
+      275 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.96 
+      276 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.619 
+      277 11:purple-seed-stain 5:brown-stem-rot   +   0.198 
+      278 14:alternarialeaf-spot 14:alternarialeaf-spot       0.751 
+      279 4:phytophthora-rot 4:phytophthora-rot       0.942 
+      280 19:herbicide-injury 4:phytophthora-rot   +   0.286 
+      281 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.757 
+      282 5:brown-stem-rot 5:brown-stem-rot       0.94 
+      283 2:charcoal-rot 2:charcoal-rot       0.912 
+      284 17:cyst-nematode 17:cyst-nematode       0.676 
+      285 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.606 
+      286 6:powdery-mildew 6:powdery-mildew       0.432 
+      287 14:alternarialeaf-spot 14:alternarialeaf-spot       0.947 
+      288 14:alternarialeaf-spot 14:alternarialeaf-spot       0.355 
+      289 12:anthracnose 12:anthracnose       0.25 
+      290 8:brown-spot 8:brown-spot       0.754 
+      291 14:alternarialeaf-spot 14:alternarialeaf-spot       0.776 
+      292 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.472 
+      293 5:brown-stem-rot 5:brown-stem-rot       0.939 
+      294 13:phyllosticta-leaf-spot 13:phyllosticta-leaf-spot       0.43 
+      295 12:anthracnose 12:anthracnose       0.578 
+      296 5:brown-stem-rot 5:brown-stem-rot       0.92 
+      297 4:phytophthora-rot 4:phytophthora-rot       0.89 
+      298 2:charcoal-rot 2:charcoal-rot       0.753 
+      299 8:brown-spot 15:frog-eye-leaf-spot   +   0.393 
+      300 7:downy-mildew 7:downy-mildew       0.278 
+      301 8:brown-spot 8:brown-spot       0.286 
+      302 4:phytophthora-rot 4:phytophthora-rot       0.852 
+      303 14:alternarialeaf-spot 14:alternarialeaf-spot       0.529 
+      304 14:alternarialeaf-spot 14:alternarialeaf-spot       0.855 
+      305 8:brown-spot 8:brown-spot       0.944 
+      306 5:brown-stem-rot 5:brown-stem-rot       0.245 
+      307 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.952 
+      308 8:brown-spot 8:brown-spot       0.782 
+      309 12:anthracnose 12:anthracnose       0.5 
+      310 6:powdery-mildew 6:powdery-mildew       0.349 
+      311 14:alternarialeaf-spot 14:alternarialeaf-spot       0.936 
+      312 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.897 
+      313 12:anthracnose 12:anthracnose       0.414 
+      314 5:brown-stem-rot 5:brown-stem-rot       0.759 
+      315 4:phytophthora-rot 4:phytophthora-rot       0.779 
+      316 8:brown-spot 8:brown-spot       0.909 
+      317 19:herbicide-injury 19:herbicide-injury       0.477 
+      318 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.728 
+      319 4:phytophthora-rot 4:phytophthora-rot       0.766 
+      320 4:phytophthora-rot 4:phytophthora-rot       0.807 
+      321 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.96 
+      322 4:phytophthora-rot 4:phytophthora-rot       0.938 
+      323 12:anthracnose 12:anthracnose       0.954 
+      324 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.685 
+      325 13:phyllosticta-leaf-spot 8:brown-spot   +   0.503 
+      326 5:brown-stem-rot 5:brown-stem-rot       0.72 
+      327 8:brown-spot 8:brown-spot       0.881 
+      328 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.576 
+      329 14:alternarialeaf-spot 15:frog-eye-leaf-spot   +   0.605 
+      330 4:phytophthora-rot 4:phytophthora-rot       0.909 
+      331 11:purple-seed-stain 5:brown-stem-rot   +   0.229 
+      332 12:anthracnose 12:anthracnose       0.27 
+      333 4:phytophthora-rot 4:phytophthora-rot       0.9 
+      334 8:brown-spot 8:brown-spot       0.702 
+      335 14:alternarialeaf-spot 14:alternarialeaf-spot       0.422 
+      336 14:alternarialeaf-spot 14:alternarialeaf-spot       0.807 
+      337 14:alternarialeaf-spot 14:alternarialeaf-spot       0.928 
+      338 14:alternarialeaf-spot 14:alternarialeaf-spot       0.669 
+      339 14:alternarialeaf-spot 14:alternarialeaf-spot       0.689 
+      340 11:purple-seed-stain 11:purple-seed-stain       0.54 
+      341 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.65 
+      342 4:phytophthora-rot 4:phytophthora-rot       0.713 
+      343 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.822 
+      344 11:purple-seed-stain 11:purple-seed-stain       0.528 
+      345 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.946 
+      346 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.336 
+      347 14:alternarialeaf-spot 14:alternarialeaf-spot       0.917 
+      348 9:bacterial-blight 9:bacterial-blight       0.433 
+      349 5:brown-stem-rot 5:brown-stem-rot       0.918 
+      350 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.725 
+      351 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.416 
+      352 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.832 
+      353 14:alternarialeaf-spot 15:frog-eye-leaf-spot   +   0.487 
+      354 2:charcoal-rot 2:charcoal-rot       0.812 
+      355 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.905 
+      356 5:brown-stem-rot 5:brown-stem-rot       0.533 
+      357 7:downy-mildew 7:downy-mildew       0.547 
+      358 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.405 
+      359 17:cyst-nematode 17:cyst-nematode       0.676 
+      360 10:bacterial-pustule 9:bacterial-blight   +   0.289 
+      361 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.548 
+      362 10:bacterial-pustule 10:bacterial-pustule       0.461 
+      363 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.914 
+      364 4:phytophthora-rot 4:phytophthora-rot       0.923 
+      365 11:purple-seed-stain 11:purple-seed-stain       0.571 
+      366 14:alternarialeaf-spot 14:alternarialeaf-spot       0.606 
+      367 4:phytophthora-rot 4:phytophthora-rot       0.925 
+      368 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.247 
+      369 6:powdery-mildew 6:powdery-mildew       0.714 
+      370 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.928 
+      371 8:brown-spot 8:brown-spot       0.592 
+      372 4:phytophthora-rot 4:phytophthora-rot       0.932 
+      373 14:alternarialeaf-spot 14:alternarialeaf-spot       0.848 
+      374 11:purple-seed-stain 11:purple-seed-stain       0.215 
+      375 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.841 
+      376 18:2-4-d-injury 5:brown-stem-rot   +   0.248 
+      377 12:anthracnose 12:anthracnose       0.833 
+      378 8:brown-spot 8:brown-spot       0.546 
+      379 5:brown-stem-rot 5:brown-stem-rot       0.448 
+      380 8:brown-spot 8:brown-spot       0.318 
+      381 2:charcoal-rot 2:charcoal-rot       0.943 
+      382 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.342 
+      383 9:bacterial-blight 9:bacterial-blight       0.331 
+      384 14:alternarialeaf-spot 14:alternarialeaf-spot       0.773 
+      385 7:downy-mildew 15:frog-eye-leaf-spot   +   0.428 
+      386 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.827 
+      387 4:phytophthora-rot 4:phytophthora-rot       0.811 
+      388 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.949 
+      389 4:phytophthora-rot 4:phytophthora-rot       0.932 
+      390 4:phytophthora-rot 4:phytophthora-rot       0.833 
+      391 14:alternarialeaf-spot 14:alternarialeaf-spot       0.666 
+      392 9:bacterial-blight 9:bacterial-blight       0.702 
+      393 18:2-4-d-injury 5:brown-stem-rot   +   0.212 
+      394 8:brown-spot 8:brown-spot       0.636 
+      395 13:phyllosticta-leaf-spot 13:phyllosticta-leaf-spot       0.388 
+      396 8:brown-spot 8:brown-spot       0.55 
+      397 14:alternarialeaf-spot 14:alternarialeaf-spot       0.686 
+      398 8:brown-spot 8:brown-spot       0.535 
+      399 14:alternarialeaf-spot 15:frog-eye-leaf-spot   +   0.453 
+      400 4:phytophthora-rot 4:phytophthora-rot       0.904 
+      401 8:brown-spot 8:brown-spot       0.94 
+      402 13:phyllosticta-leaf-spot 8:brown-spot   +   0.368 
+      403 14:alternarialeaf-spot 14:alternarialeaf-spot       0.607 
+      404 13:phyllosticta-leaf-spot 15:frog-eye-leaf-spot   +   0.33 
+      405 8:brown-spot 8:brown-spot       0.908 
+      406 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.997 
+      407 1:diaporthe-stem-canker 1:diaporthe-stem-canker       0.723 
+      408 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.396 
+      409 15:frog-eye-leaf-spot 14:alternarialeaf-spot   +   0.643 
+      410 14:alternarialeaf-spot 14:alternarialeaf-spot       0.575 
+      411 6:powdery-mildew 6:powdery-mildew       0.391 
+      412 17:cyst-nematode 17:cyst-nematode       0.765 
+      413 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.859 
+      414 4:phytophthora-rot 4:phytophthora-rot       0.833 
+      415 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.939 
+      416 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.928 
+      417 4:phytophthora-rot 4:phytophthora-rot       0.757 
+      418 14:alternarialeaf-spot 15:frog-eye-leaf-spot   +   0.316 
+      419 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.993 
+      420 14:alternarialeaf-spot 15:frog-eye-leaf-spot   +   0.591 
+      421 9:bacterial-blight 10:bacterial-pustule   +   0.411 
+      422 4:phytophthora-rot 4:phytophthora-rot       0.84 
+      423 6:powdery-mildew 6:powdery-mildew       0.305 
+      424 4:phytophthora-rot 4:phytophthora-rot       0.776 
+      425 7:downy-mildew 8:brown-spot   +   0.474 
+      426 18:2-4-d-injury 18:2-4-d-injury       0.333 
+      427 9:bacterial-blight 9:bacterial-blight       0.428 
+      428 7:downy-mildew 7:downy-mildew       0.679 
+      429 7:downy-mildew 7:downy-mildew       0.422 
+      430 13:phyllosticta-leaf-spot 13:phyllosticta-leaf-spot       0.487 
+      431 11:purple-seed-stain 11:purple-seed-stain       0.77 
+      432 9:bacterial-blight 9:bacterial-blight       0.565 
+      433 12:anthracnose 4:phytophthora-rot   +   0.273 
+      434 13:phyllosticta-leaf-spot 8:brown-spot   +   0.706 
+      435 8:brown-spot 8:brown-spot       0.953 
+      436 8:brown-spot 8:brown-spot       0.944 
+      437 14:alternarialeaf-spot 14:alternarialeaf-spot       0.536 
+      438 5:brown-stem-rot 5:brown-stem-rot       0.96 
+      439 4:phytophthora-rot 4:phytophthora-rot       0.938 
+      440 8:brown-spot 8:brown-spot       0.973 
+      441 8:brown-spot 8:brown-spot       0.842 
+      442 5:brown-stem-rot 5:brown-stem-rot       0.762 
+      443 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.874 
+      444 17:cyst-nematode 17:cyst-nematode       0.844 
+      445 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.696 
+      446 12:anthracnose 12:anthracnose       0.446 
+      447 16:diaporthe-pod-&-stem-blight 16:diaporthe-pod-&-stem-blight       0.82 
+      448 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.729 
+      449 8:brown-spot 8:brown-spot       0.422 
+      450 3:rhizoctonia-root-rot 3:rhizoctonia-root-rot       0.397 
+      451 5:brown-stem-rot 5:brown-stem-rot       0.767 
+      452 18:2-4-d-injury 19:herbicide-injury   +   0.232 
+      453 10:bacterial-pustule 10:bacterial-pustule       0.301 
+      454 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.836 
+      455 4:phytophthora-rot 4:phytophthora-rot       0.818 
+      456 14:alternarialeaf-spot 14:alternarialeaf-spot       0.743 
+      457 14:alternarialeaf-spot 14:alternarialeaf-spot       0.53 
+      458 15:frog-eye-leaf-spot 15:frog-eye-leaf-spot       0.956 
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.24 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         398               86.8996 %
+Incorrectly Classified Instances        60               13.1004 %
+Kappa statistic                          0.8553
+Mean absolute error                      0.0397
+Root mean squared error                  0.1183
+Relative absolute error                 41.107  %
+Root relative squared error             53.9343 %
+Total Number of Instances              458     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     diaporthe-stem-canker
+                 0.800    0.000    1.000      0.800    0.889      0.891    1.000     1.000     charcoal-rot
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     rhizoctonia-root-rot
+                 1.000    0.010    0.938      1.000    0.968      0.963    1.000     1.000     phytophthora-rot
+                 1.000    0.021    0.750      1.000    0.857      0.857    0.997     0.957     brown-stem-rot
+                 0.929    0.000    1.000      0.929    0.963      0.963    1.000     1.000     powdery-mildew
+                 0.538    0.000    1.000      0.538    0.700      0.729    0.999     0.982     downy-mildew
+                 0.968    0.028    0.845      0.968    0.902      0.889    0.994     0.955     brown-spot
+                 0.846    0.002    0.917      0.846    0.880      0.877    1.000     1.000     bacterial-blight
+                 0.900    0.004    0.818      0.900    0.857      0.855    0.998     0.917     bacterial-pustule
+                 0.800    0.000    1.000      0.800    0.889      0.891    1.000     1.000     purple-seed-stain
+                 0.964    0.000    1.000      0.964    0.982      0.981    1.000     1.000     anthracnose
+                 0.400    0.000    1.000      0.400    0.571      0.626    0.979     0.713     phyllosticta-leaf-spot
+                 0.866    0.038    0.795      0.866    0.829      0.799    0.985     0.914     alternarialeaf-spot
+                 0.759    0.038    0.746      0.759    0.752      0.716    0.971     0.890     frog-eye-leaf-spot
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     diaporthe-pod-&-stem-blight
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     cyst-nematode
+                 0.462    0.002    0.857      0.462    0.600      0.622    0.979     0.544     2-4-d-injury
+                 0.600    0.004    0.600      0.600    0.600      0.596    1.000     1.000     herbicide-injury
+Weighted Avg.    0.869    0.017    0.879      0.869    0.863      0.855    0.992     0.940     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s   <-- classified as
+ 11  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = diaporthe-stem-canker
+  0 12  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = charcoal-rot
+  0  0 15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = rhizoctonia-root-rot
+  0  0  0 60  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = phytophthora-rot
+  0  0  0  0 27  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = brown-stem-rot
+  0  0  0  0  0 13  0  0  0  0  0  0  0  0  0  0  0  1  0 |  f = powdery-mildew
+  0  0  0  0  0  0  7  2  0  0  0  0  0  1  3  0  0  0  0 |  g = downy-mildew
+  0  0  0  0  0  0  0 60  0  0  0  0  0  1  1  0  0  0  0 |  h = brown-spot
+  0  0  0  0  0  0  0  0 11  2  0  0  0  0  0  0  0  0  0 |  i = bacterial-blight
+  0  0  0  0  0  0  0  0  1  9  0  0  0  0  0  0  0  0  0 |  j = bacterial-pustule
+  0  0  0  0  2  0  0  0  0  0 12  0  0  0  1  0  0  0  0 |  k = purple-seed-stain
+  0  0  0  1  0  0  0  0  0  0  0 27  0  0  0  0  0  0  0 |  l = anthracnose
+  0  0  0  0  0  0  0  8  0  0  0  0  6  0  1  0  0  0  0 |  m = phyllosticta-leaf-spot
+  0  0  0  0  0  0  0  0  0  0  0  0  0 58  9  0  0  0  0 |  n = alternarialeaf-spot
+  0  0  0  0  0  0  0  1  0  0  0  0  0 13 44  0  0  0  0 |  o = frog-eye-leaf-spot
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0 |  p = diaporthe-pod-&-stem-blight
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  7  0  0 |  q = cyst-nematode
+  0  0  0  1  4  0  0  0  0  0  0  0  0  0  0  0  0  6  2 |  r = 2-4-d-injury
+  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  3 |  s = herbicide-injury
+

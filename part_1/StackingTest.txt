@@ -1,0 +1,809 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Stacking -X 10 -M "weka.classifiers.rules.ZeroR " -S 1 -num-slots 1 -B "weka.classifiers.rules.ZeroR "
+Relation:     soybean
+Instances:    683
+Attributes:   36
+              date
+              plant-stand
+              precip
+              temp
+              hail
+              crop-hist
+              area-damaged
+              severity
+              seed-tmt
+              germination
+              plant-growth
+              leaves
+              leafspots-halo
+              leafspots-marg
+              leafspot-size
+              leaf-shread
+              leaf-malf
+              leaf-mild
+              stem
+              lodging
+              stem-cankers
+              canker-lesion
+              fruiting-bodies
+              external-decay
+              mycelium
+              int-discolor
+              sclerotia
+              fruit-pods
+              fruit-spots
+              seed
+              mold-growth
+              seed-discolor
+              seed-size
+              shriveling
+              roots
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Stacking
+
+Base classifiers
+
+ZeroR predicts class value: brown-spot
+
+
+
+Meta classifier
+
+ZeroR predicts class value: brown-spot
+
+Time taken to build model: 0 seconds
+
+=== Predictions on test set ===
+
+    inst#     actual  predicted error prediction
+        1 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+        2 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+        3 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+        4 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+        5 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+        6 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+        7 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+        8 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+        9 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+       10 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+       11 2:charcoal-rot 8:brown-spot   +   0.132 
+       12 2:charcoal-rot 8:brown-spot   +   0.132 
+       13 2:charcoal-rot 8:brown-spot   +   0.132 
+       14 2:charcoal-rot 8:brown-spot   +   0.132 
+       15 2:charcoal-rot 8:brown-spot   +   0.132 
+       16 2:charcoal-rot 8:brown-spot   +   0.132 
+       17 2:charcoal-rot 8:brown-spot   +   0.132 
+       18 2:charcoal-rot 8:brown-spot   +   0.132 
+       19 2:charcoal-rot 8:brown-spot   +   0.132 
+       20 2:charcoal-rot 8:brown-spot   +   0.132 
+       21 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       22 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       23 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       24 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       25 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       26 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       27 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       28 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       29 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       30 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+       31 4:phytophthora-rot 8:brown-spot   +   0.132 
+       32 4:phytophthora-rot 8:brown-spot   +   0.132 
+       33 4:phytophthora-rot 8:brown-spot   +   0.132 
+       34 4:phytophthora-rot 8:brown-spot   +   0.132 
+       35 4:phytophthora-rot 8:brown-spot   +   0.132 
+       36 4:phytophthora-rot 8:brown-spot   +   0.132 
+       37 4:phytophthora-rot 8:brown-spot   +   0.132 
+       38 4:phytophthora-rot 8:brown-spot   +   0.132 
+       39 4:phytophthora-rot 8:brown-spot   +   0.132 
+       40 4:phytophthora-rot 8:brown-spot   +   0.132 
+       41 4:phytophthora-rot 8:brown-spot   +   0.132 
+       42 4:phytophthora-rot 8:brown-spot   +   0.132 
+       43 4:phytophthora-rot 8:brown-spot   +   0.132 
+       44 4:phytophthora-rot 8:brown-spot   +   0.132 
+       45 4:phytophthora-rot 8:brown-spot   +   0.132 
+       46 4:phytophthora-rot 8:brown-spot   +   0.132 
+       47 4:phytophthora-rot 8:brown-spot   +   0.132 
+       48 4:phytophthora-rot 8:brown-spot   +   0.132 
+       49 4:phytophthora-rot 8:brown-spot   +   0.132 
+       50 4:phytophthora-rot 8:brown-spot   +   0.132 
+       51 4:phytophthora-rot 8:brown-spot   +   0.132 
+       52 4:phytophthora-rot 8:brown-spot   +   0.132 
+       53 4:phytophthora-rot 8:brown-spot   +   0.132 
+       54 4:phytophthora-rot 8:brown-spot   +   0.132 
+       55 4:phytophthora-rot 8:brown-spot   +   0.132 
+       56 4:phytophthora-rot 8:brown-spot   +   0.132 
+       57 4:phytophthora-rot 8:brown-spot   +   0.132 
+       58 4:phytophthora-rot 8:brown-spot   +   0.132 
+       59 4:phytophthora-rot 8:brown-spot   +   0.132 
+       60 4:phytophthora-rot 8:brown-spot   +   0.132 
+       61 4:phytophthora-rot 8:brown-spot   +   0.132 
+       62 4:phytophthora-rot 8:brown-spot   +   0.132 
+       63 4:phytophthora-rot 8:brown-spot   +   0.132 
+       64 4:phytophthora-rot 8:brown-spot   +   0.132 
+       65 4:phytophthora-rot 8:brown-spot   +   0.132 
+       66 4:phytophthora-rot 8:brown-spot   +   0.132 
+       67 4:phytophthora-rot 8:brown-spot   +   0.132 
+       68 4:phytophthora-rot 8:brown-spot   +   0.132 
+       69 4:phytophthora-rot 8:brown-spot   +   0.132 
+       70 4:phytophthora-rot 8:brown-spot   +   0.132 
+       71 5:brown-stem-rot 8:brown-spot   +   0.132 
+       72 5:brown-stem-rot 8:brown-spot   +   0.132 
+       73 5:brown-stem-rot 8:brown-spot   +   0.132 
+       74 5:brown-stem-rot 8:brown-spot   +   0.132 
+       75 5:brown-stem-rot 8:brown-spot   +   0.132 
+       76 5:brown-stem-rot 8:brown-spot   +   0.132 
+       77 5:brown-stem-rot 8:brown-spot   +   0.132 
+       78 5:brown-stem-rot 8:brown-spot   +   0.132 
+       79 5:brown-stem-rot 8:brown-spot   +   0.132 
+       80 5:brown-stem-rot 8:brown-spot   +   0.132 
+       81 5:brown-stem-rot 8:brown-spot   +   0.132 
+       82 5:brown-stem-rot 8:brown-spot   +   0.132 
+       83 5:brown-stem-rot 8:brown-spot   +   0.132 
+       84 5:brown-stem-rot 8:brown-spot   +   0.132 
+       85 5:brown-stem-rot 8:brown-spot   +   0.132 
+       86 5:brown-stem-rot 8:brown-spot   +   0.132 
+       87 5:brown-stem-rot 8:brown-spot   +   0.132 
+       88 5:brown-stem-rot 8:brown-spot   +   0.132 
+       89 5:brown-stem-rot 8:brown-spot   +   0.132 
+       90 5:brown-stem-rot 8:brown-spot   +   0.132 
+       91 6:powdery-mildew 8:brown-spot   +   0.132 
+       92 6:powdery-mildew 8:brown-spot   +   0.132 
+       93 6:powdery-mildew 8:brown-spot   +   0.132 
+       94 6:powdery-mildew 8:brown-spot   +   0.132 
+       95 6:powdery-mildew 8:brown-spot   +   0.132 
+       96 6:powdery-mildew 8:brown-spot   +   0.132 
+       97 6:powdery-mildew 8:brown-spot   +   0.132 
+       98 6:powdery-mildew 8:brown-spot   +   0.132 
+       99 6:powdery-mildew 8:brown-spot   +   0.132 
+      100 6:powdery-mildew 8:brown-spot   +   0.132 
+      101 7:downy-mildew 8:brown-spot   +   0.132 
+      102 7:downy-mildew 8:brown-spot   +   0.132 
+      103 7:downy-mildew 8:brown-spot   +   0.132 
+      104 7:downy-mildew 8:brown-spot   +   0.132 
+      105 7:downy-mildew 8:brown-spot   +   0.132 
+      106 7:downy-mildew 8:brown-spot   +   0.132 
+      107 7:downy-mildew 8:brown-spot   +   0.132 
+      108 7:downy-mildew 8:brown-spot   +   0.132 
+      109 7:downy-mildew 8:brown-spot   +   0.132 
+      110 7:downy-mildew 8:brown-spot   +   0.132 
+      111 8:brown-spot 8:brown-spot       0.132 
+      112 8:brown-spot 8:brown-spot       0.132 
+      113 8:brown-spot 8:brown-spot       0.132 
+      114 8:brown-spot 8:brown-spot       0.132 
+      115 8:brown-spot 8:brown-spot       0.132 
+      116 8:brown-spot 8:brown-spot       0.132 
+      117 8:brown-spot 8:brown-spot       0.132 
+      118 8:brown-spot 8:brown-spot       0.132 
+      119 8:brown-spot 8:brown-spot       0.132 
+      120 8:brown-spot 8:brown-spot       0.132 
+      121 8:brown-spot 8:brown-spot       0.132 
+      122 8:brown-spot 8:brown-spot       0.132 
+      123 8:brown-spot 8:brown-spot       0.132 
+      124 8:brown-spot 8:brown-spot       0.132 
+      125 8:brown-spot 8:brown-spot       0.132 
+      126 8:brown-spot 8:brown-spot       0.132 
+      127 8:brown-spot 8:brown-spot       0.132 
+      128 8:brown-spot 8:brown-spot       0.132 
+      129 8:brown-spot 8:brown-spot       0.132 
+      130 8:brown-spot 8:brown-spot       0.132 
+      131 8:brown-spot 8:brown-spot       0.132 
+      132 8:brown-spot 8:brown-spot       0.132 
+      133 8:brown-spot 8:brown-spot       0.132 
+      134 8:brown-spot 8:brown-spot       0.132 
+      135 8:brown-spot 8:brown-spot       0.132 
+      136 8:brown-spot 8:brown-spot       0.132 
+      137 8:brown-spot 8:brown-spot       0.132 
+      138 8:brown-spot 8:brown-spot       0.132 
+      139 8:brown-spot 8:brown-spot       0.132 
+      140 8:brown-spot 8:brown-spot       0.132 
+      141 8:brown-spot 8:brown-spot       0.132 
+      142 8:brown-spot 8:brown-spot       0.132 
+      143 8:brown-spot 8:brown-spot       0.132 
+      144 8:brown-spot 8:brown-spot       0.132 
+      145 8:brown-spot 8:brown-spot       0.132 
+      146 8:brown-spot 8:brown-spot       0.132 
+      147 8:brown-spot 8:brown-spot       0.132 
+      148 8:brown-spot 8:brown-spot       0.132 
+      149 8:brown-spot 8:brown-spot       0.132 
+      150 8:brown-spot 8:brown-spot       0.132 
+      151 9:bacterial-blight 8:brown-spot   +   0.132 
+      152 9:bacterial-blight 8:brown-spot   +   0.132 
+      153 9:bacterial-blight 8:brown-spot   +   0.132 
+      154 9:bacterial-blight 8:brown-spot   +   0.132 
+      155 9:bacterial-blight 8:brown-spot   +   0.132 
+      156 9:bacterial-blight 8:brown-spot   +   0.132 
+      157 9:bacterial-blight 8:brown-spot   +   0.132 
+      158 9:bacterial-blight 8:brown-spot   +   0.132 
+      159 9:bacterial-blight 8:brown-spot   +   0.132 
+      160 9:bacterial-blight 8:brown-spot   +   0.132 
+      161 10:bacterial-pustule 8:brown-spot   +   0.132 
+      162 10:bacterial-pustule 8:brown-spot   +   0.132 
+      163 10:bacterial-pustule 8:brown-spot   +   0.132 
+      164 10:bacterial-pustule 8:brown-spot   +   0.132 
+      165 10:bacterial-pustule 8:brown-spot   +   0.132 
+      166 10:bacterial-pustule 8:brown-spot   +   0.132 
+      167 10:bacterial-pustule 8:brown-spot   +   0.132 
+      168 10:bacterial-pustule 8:brown-spot   +   0.132 
+      169 10:bacterial-pustule 8:brown-spot   +   0.132 
+      170 10:bacterial-pustule 8:brown-spot   +   0.132 
+      171 11:purple-seed-stain 8:brown-spot   +   0.132 
+      172 11:purple-seed-stain 8:brown-spot   +   0.132 
+      173 11:purple-seed-stain 8:brown-spot   +   0.132 
+      174 11:purple-seed-stain 8:brown-spot   +   0.132 
+      175 11:purple-seed-stain 8:brown-spot   +   0.132 
+      176 11:purple-seed-stain 8:brown-spot   +   0.132 
+      177 11:purple-seed-stain 8:brown-spot   +   0.132 
+      178 11:purple-seed-stain 8:brown-spot   +   0.132 
+      179 11:purple-seed-stain 8:brown-spot   +   0.132 
+      180 11:purple-seed-stain 8:brown-spot   +   0.132 
+      181 12:anthracnose 8:brown-spot   +   0.132 
+      182 12:anthracnose 8:brown-spot   +   0.132 
+      183 12:anthracnose 8:brown-spot   +   0.132 
+      184 12:anthracnose 8:brown-spot   +   0.132 
+      185 12:anthracnose 8:brown-spot   +   0.132 
+      186 12:anthracnose 8:brown-spot   +   0.132 
+      187 12:anthracnose 8:brown-spot   +   0.132 
+      188 12:anthracnose 8:brown-spot   +   0.132 
+      189 12:anthracnose 8:brown-spot   +   0.132 
+      190 12:anthracnose 8:brown-spot   +   0.132 
+      191 12:anthracnose 8:brown-spot   +   0.132 
+      192 12:anthracnose 8:brown-spot   +   0.132 
+      193 12:anthracnose 8:brown-spot   +   0.132 
+      194 12:anthracnose 8:brown-spot   +   0.132 
+      195 12:anthracnose 8:brown-spot   +   0.132 
+      196 12:anthracnose 8:brown-spot   +   0.132 
+      197 12:anthracnose 8:brown-spot   +   0.132 
+      198 12:anthracnose 8:brown-spot   +   0.132 
+      199 12:anthracnose 8:brown-spot   +   0.132 
+      200 12:anthracnose 8:brown-spot   +   0.132 
+      201 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      202 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      203 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      204 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      205 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      206 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      207 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      208 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      209 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      210 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      211 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      212 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      213 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      214 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      215 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      216 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      217 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      218 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      219 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      220 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      221 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      222 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      223 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      224 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      225 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      226 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      227 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      228 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      229 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      230 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      231 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      232 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      233 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      234 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      235 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      236 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      237 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      238 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      239 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      240 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      241 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      242 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      243 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      244 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      245 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      246 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      247 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      248 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      249 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      250 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      251 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      252 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      253 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      254 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      255 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      256 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      257 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      258 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      259 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      260 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      261 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      262 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      263 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      264 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      265 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      266 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      267 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      268 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      269 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      270 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      271 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      272 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      273 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      274 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      275 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      276 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      277 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      278 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      279 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      280 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      281 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      282 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      283 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      284 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      285 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      286 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      287 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      288 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      289 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      290 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      291 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      292 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      293 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      294 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      295 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      296 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      297 17:cyst-nematode 8:brown-spot   +   0.132 
+      298 17:cyst-nematode 8:brown-spot   +   0.132 
+      299 17:cyst-nematode 8:brown-spot   +   0.132 
+      300 17:cyst-nematode 8:brown-spot   +   0.132 
+      301 17:cyst-nematode 8:brown-spot   +   0.132 
+      302 17:cyst-nematode 8:brown-spot   +   0.132 
+      303 18:2-4-d-injury 8:brown-spot   +   0.132 
+      304 19:herbicide-injury 8:brown-spot   +   0.132 
+      305 19:herbicide-injury 8:brown-spot   +   0.132 
+      306 19:herbicide-injury 8:brown-spot   +   0.132 
+      307 19:herbicide-injury 8:brown-spot   +   0.132 
+      308 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      309 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      310 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      311 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      312 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      313 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      314 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      315 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      316 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      317 1:diaporthe-stem-canker 8:brown-spot   +   0.132 
+      318 2:charcoal-rot 8:brown-spot   +   0.132 
+      319 2:charcoal-rot 8:brown-spot   +   0.132 
+      320 2:charcoal-rot 8:brown-spot   +   0.132 
+      321 2:charcoal-rot 8:brown-spot   +   0.132 
+      322 2:charcoal-rot 8:brown-spot   +   0.132 
+      323 2:charcoal-rot 8:brown-spot   +   0.132 
+      324 2:charcoal-rot 8:brown-spot   +   0.132 
+      325 2:charcoal-rot 8:brown-spot   +   0.132 
+      326 2:charcoal-rot 8:brown-spot   +   0.132 
+      327 2:charcoal-rot 8:brown-spot   +   0.132 
+      328 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      329 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      330 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      331 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      332 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      333 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      334 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      335 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      336 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      337 3:rhizoctonia-root-rot 8:brown-spot   +   0.132 
+      338 4:phytophthora-rot 8:brown-spot   +   0.132 
+      339 4:phytophthora-rot 8:brown-spot   +   0.132 
+      340 4:phytophthora-rot 8:brown-spot   +   0.132 
+      341 4:phytophthora-rot 8:brown-spot   +   0.132 
+      342 4:phytophthora-rot 8:brown-spot   +   0.132 
+      343 4:phytophthora-rot 8:brown-spot   +   0.132 
+      344 4:phytophthora-rot 8:brown-spot   +   0.132 
+      345 4:phytophthora-rot 8:brown-spot   +   0.132 
+      346 4:phytophthora-rot 8:brown-spot   +   0.132 
+      347 4:phytophthora-rot 8:brown-spot   +   0.132 
+      348 4:phytophthora-rot 8:brown-spot   +   0.132 
+      349 4:phytophthora-rot 8:brown-spot   +   0.132 
+      350 4:phytophthora-rot 8:brown-spot   +   0.132 
+      351 4:phytophthora-rot 8:brown-spot   +   0.132 
+      352 4:phytophthora-rot 8:brown-spot   +   0.132 
+      353 4:phytophthora-rot 8:brown-spot   +   0.132 
+      354 4:phytophthora-rot 8:brown-spot   +   0.132 
+      355 4:phytophthora-rot 8:brown-spot   +   0.132 
+      356 4:phytophthora-rot 8:brown-spot   +   0.132 
+      357 4:phytophthora-rot 8:brown-spot   +   0.132 
+      358 4:phytophthora-rot 8:brown-spot   +   0.132 
+      359 4:phytophthora-rot 8:brown-spot   +   0.132 
+      360 4:phytophthora-rot 8:brown-spot   +   0.132 
+      361 4:phytophthora-rot 8:brown-spot   +   0.132 
+      362 4:phytophthora-rot 8:brown-spot   +   0.132 
+      363 4:phytophthora-rot 8:brown-spot   +   0.132 
+      364 4:phytophthora-rot 8:brown-spot   +   0.132 
+      365 4:phytophthora-rot 8:brown-spot   +   0.132 
+      366 4:phytophthora-rot 8:brown-spot   +   0.132 
+      367 4:phytophthora-rot 8:brown-spot   +   0.132 
+      368 4:phytophthora-rot 8:brown-spot   +   0.132 
+      369 4:phytophthora-rot 8:brown-spot   +   0.132 
+      370 4:phytophthora-rot 8:brown-spot   +   0.132 
+      371 4:phytophthora-rot 8:brown-spot   +   0.132 
+      372 4:phytophthora-rot 8:brown-spot   +   0.132 
+      373 4:phytophthora-rot 8:brown-spot   +   0.132 
+      374 4:phytophthora-rot 8:brown-spot   +   0.132 
+      375 4:phytophthora-rot 8:brown-spot   +   0.132 
+      376 4:phytophthora-rot 8:brown-spot   +   0.132 
+      377 4:phytophthora-rot 8:brown-spot   +   0.132 
+      378 4:phytophthora-rot 8:brown-spot   +   0.132 
+      379 4:phytophthora-rot 8:brown-spot   +   0.132 
+      380 4:phytophthora-rot 8:brown-spot   +   0.132 
+      381 4:phytophthora-rot 8:brown-spot   +   0.132 
+      382 4:phytophthora-rot 8:brown-spot   +   0.132 
+      383 4:phytophthora-rot 8:brown-spot   +   0.132 
+      384 4:phytophthora-rot 8:brown-spot   +   0.132 
+      385 4:phytophthora-rot 8:brown-spot   +   0.132 
+      386 5:brown-stem-rot 8:brown-spot   +   0.132 
+      387 5:brown-stem-rot 8:brown-spot   +   0.132 
+      388 5:brown-stem-rot 8:brown-spot   +   0.132 
+      389 5:brown-stem-rot 8:brown-spot   +   0.132 
+      390 5:brown-stem-rot 8:brown-spot   +   0.132 
+      391 5:brown-stem-rot 8:brown-spot   +   0.132 
+      392 5:brown-stem-rot 8:brown-spot   +   0.132 
+      393 5:brown-stem-rot 8:brown-spot   +   0.132 
+      394 5:brown-stem-rot 8:brown-spot   +   0.132 
+      395 5:brown-stem-rot 8:brown-spot   +   0.132 
+      396 5:brown-stem-rot 8:brown-spot   +   0.132 
+      397 5:brown-stem-rot 8:brown-spot   +   0.132 
+      398 5:brown-stem-rot 8:brown-spot   +   0.132 
+      399 5:brown-stem-rot 8:brown-spot   +   0.132 
+      400 5:brown-stem-rot 8:brown-spot   +   0.132 
+      401 5:brown-stem-rot 8:brown-spot   +   0.132 
+      402 5:brown-stem-rot 8:brown-spot   +   0.132 
+      403 5:brown-stem-rot 8:brown-spot   +   0.132 
+      404 5:brown-stem-rot 8:brown-spot   +   0.132 
+      405 5:brown-stem-rot 8:brown-spot   +   0.132 
+      406 5:brown-stem-rot 8:brown-spot   +   0.132 
+      407 5:brown-stem-rot 8:brown-spot   +   0.132 
+      408 5:brown-stem-rot 8:brown-spot   +   0.132 
+      409 5:brown-stem-rot 8:brown-spot   +   0.132 
+      410 6:powdery-mildew 8:brown-spot   +   0.132 
+      411 6:powdery-mildew 8:brown-spot   +   0.132 
+      412 6:powdery-mildew 8:brown-spot   +   0.132 
+      413 6:powdery-mildew 8:brown-spot   +   0.132 
+      414 6:powdery-mildew 8:brown-spot   +   0.132 
+      415 6:powdery-mildew 8:brown-spot   +   0.132 
+      416 6:powdery-mildew 8:brown-spot   +   0.132 
+      417 6:powdery-mildew 8:brown-spot   +   0.132 
+      418 6:powdery-mildew 8:brown-spot   +   0.132 
+      419 6:powdery-mildew 8:brown-spot   +   0.132 
+      420 7:downy-mildew 8:brown-spot   +   0.132 
+      421 7:downy-mildew 8:brown-spot   +   0.132 
+      422 7:downy-mildew 8:brown-spot   +   0.132 
+      423 7:downy-mildew 8:brown-spot   +   0.132 
+      424 7:downy-mildew 8:brown-spot   +   0.132 
+      425 7:downy-mildew 8:brown-spot   +   0.132 
+      426 7:downy-mildew 8:brown-spot   +   0.132 
+      427 7:downy-mildew 8:brown-spot   +   0.132 
+      428 7:downy-mildew 8:brown-spot   +   0.132 
+      429 7:downy-mildew 8:brown-spot   +   0.132 
+      430 8:brown-spot 8:brown-spot       0.132 
+      431 8:brown-spot 8:brown-spot       0.132 
+      432 8:brown-spot 8:brown-spot       0.132 
+      433 8:brown-spot 8:brown-spot       0.132 
+      434 8:brown-spot 8:brown-spot       0.132 
+      435 8:brown-spot 8:brown-spot       0.132 
+      436 8:brown-spot 8:brown-spot       0.132 
+      437 8:brown-spot 8:brown-spot       0.132 
+      438 8:brown-spot 8:brown-spot       0.132 
+      439 8:brown-spot 8:brown-spot       0.132 
+      440 8:brown-spot 8:brown-spot       0.132 
+      441 8:brown-spot 8:brown-spot       0.132 
+      442 8:brown-spot 8:brown-spot       0.132 
+      443 8:brown-spot 8:brown-spot       0.132 
+      444 8:brown-spot 8:brown-spot       0.132 
+      445 8:brown-spot 8:brown-spot       0.132 
+      446 8:brown-spot 8:brown-spot       0.132 
+      447 8:brown-spot 8:brown-spot       0.132 
+      448 8:brown-spot 8:brown-spot       0.132 
+      449 8:brown-spot 8:brown-spot       0.132 
+      450 8:brown-spot 8:brown-spot       0.132 
+      451 8:brown-spot 8:brown-spot       0.132 
+      452 8:brown-spot 8:brown-spot       0.132 
+      453 8:brown-spot 8:brown-spot       0.132 
+      454 8:brown-spot 8:brown-spot       0.132 
+      455 8:brown-spot 8:brown-spot       0.132 
+      456 8:brown-spot 8:brown-spot       0.132 
+      457 8:brown-spot 8:brown-spot       0.132 
+      458 8:brown-spot 8:brown-spot       0.132 
+      459 8:brown-spot 8:brown-spot       0.132 
+      460 8:brown-spot 8:brown-spot       0.132 
+      461 8:brown-spot 8:brown-spot       0.132 
+      462 8:brown-spot 8:brown-spot       0.132 
+      463 8:brown-spot 8:brown-spot       0.132 
+      464 8:brown-spot 8:brown-spot       0.132 
+      465 8:brown-spot 8:brown-spot       0.132 
+      466 8:brown-spot 8:brown-spot       0.132 
+      467 8:brown-spot 8:brown-spot       0.132 
+      468 8:brown-spot 8:brown-spot       0.132 
+      469 8:brown-spot 8:brown-spot       0.132 
+      470 8:brown-spot 8:brown-spot       0.132 
+      471 8:brown-spot 8:brown-spot       0.132 
+      472 8:brown-spot 8:brown-spot       0.132 
+      473 8:brown-spot 8:brown-spot       0.132 
+      474 8:brown-spot 8:brown-spot       0.132 
+      475 8:brown-spot 8:brown-spot       0.132 
+      476 8:brown-spot 8:brown-spot       0.132 
+      477 8:brown-spot 8:brown-spot       0.132 
+      478 8:brown-spot 8:brown-spot       0.132 
+      479 8:brown-spot 8:brown-spot       0.132 
+      480 8:brown-spot 8:brown-spot       0.132 
+      481 8:brown-spot 8:brown-spot       0.132 
+      482 9:bacterial-blight 8:brown-spot   +   0.132 
+      483 9:bacterial-blight 8:brown-spot   +   0.132 
+      484 9:bacterial-blight 8:brown-spot   +   0.132 
+      485 9:bacterial-blight 8:brown-spot   +   0.132 
+      486 9:bacterial-blight 8:brown-spot   +   0.132 
+      487 9:bacterial-blight 8:brown-spot   +   0.132 
+      488 9:bacterial-blight 8:brown-spot   +   0.132 
+      489 9:bacterial-blight 8:brown-spot   +   0.132 
+      490 9:bacterial-blight 8:brown-spot   +   0.132 
+      491 9:bacterial-blight 8:brown-spot   +   0.132 
+      492 10:bacterial-pustule 8:brown-spot   +   0.132 
+      493 10:bacterial-pustule 8:brown-spot   +   0.132 
+      494 10:bacterial-pustule 8:brown-spot   +   0.132 
+      495 10:bacterial-pustule 8:brown-spot   +   0.132 
+      496 10:bacterial-pustule 8:brown-spot   +   0.132 
+      497 10:bacterial-pustule 8:brown-spot   +   0.132 
+      498 10:bacterial-pustule 8:brown-spot   +   0.132 
+      499 10:bacterial-pustule 8:brown-spot   +   0.132 
+      500 10:bacterial-pustule 8:brown-spot   +   0.132 
+      501 10:bacterial-pustule 8:brown-spot   +   0.132 
+      502 11:purple-seed-stain 8:brown-spot   +   0.132 
+      503 11:purple-seed-stain 8:brown-spot   +   0.132 
+      504 11:purple-seed-stain 8:brown-spot   +   0.132 
+      505 11:purple-seed-stain 8:brown-spot   +   0.132 
+      506 11:purple-seed-stain 8:brown-spot   +   0.132 
+      507 11:purple-seed-stain 8:brown-spot   +   0.132 
+      508 11:purple-seed-stain 8:brown-spot   +   0.132 
+      509 11:purple-seed-stain 8:brown-spot   +   0.132 
+      510 11:purple-seed-stain 8:brown-spot   +   0.132 
+      511 11:purple-seed-stain 8:brown-spot   +   0.132 
+      512 12:anthracnose 8:brown-spot   +   0.132 
+      513 12:anthracnose 8:brown-spot   +   0.132 
+      514 12:anthracnose 8:brown-spot   +   0.132 
+      515 12:anthracnose 8:brown-spot   +   0.132 
+      516 12:anthracnose 8:brown-spot   +   0.132 
+      517 12:anthracnose 8:brown-spot   +   0.132 
+      518 12:anthracnose 8:brown-spot   +   0.132 
+      519 12:anthracnose 8:brown-spot   +   0.132 
+      520 12:anthracnose 8:brown-spot   +   0.132 
+      521 12:anthracnose 8:brown-spot   +   0.132 
+      522 12:anthracnose 8:brown-spot   +   0.132 
+      523 12:anthracnose 8:brown-spot   +   0.132 
+      524 12:anthracnose 8:brown-spot   +   0.132 
+      525 12:anthracnose 8:brown-spot   +   0.132 
+      526 12:anthracnose 8:brown-spot   +   0.132 
+      527 12:anthracnose 8:brown-spot   +   0.132 
+      528 12:anthracnose 8:brown-spot   +   0.132 
+      529 12:anthracnose 8:brown-spot   +   0.132 
+      530 12:anthracnose 8:brown-spot   +   0.132 
+      531 12:anthracnose 8:brown-spot   +   0.132 
+      532 12:anthracnose 8:brown-spot   +   0.132 
+      533 12:anthracnose 8:brown-spot   +   0.132 
+      534 12:anthracnose 8:brown-spot   +   0.132 
+      535 12:anthracnose 8:brown-spot   +   0.132 
+      536 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      537 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      538 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      539 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      540 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      541 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      542 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      543 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      544 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      545 13:phyllosticta-leaf-spot 8:brown-spot   +   0.132 
+      546 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      547 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      548 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      549 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      550 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      551 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      552 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      553 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      554 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      555 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      556 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      557 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      558 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      559 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      560 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      561 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      562 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      563 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      564 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      565 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      566 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      567 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      568 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      569 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      570 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      571 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      572 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      573 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      574 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      575 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      576 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      577 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      578 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      579 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      580 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      581 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      582 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      583 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      584 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      585 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      586 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      587 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      588 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      589 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      590 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      591 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      592 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      593 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      594 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      595 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      596 14:alternarialeaf-spot 8:brown-spot   +   0.132 
+      597 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      598 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      599 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      600 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      601 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      602 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      603 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      604 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      605 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      606 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      607 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      608 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      609 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      610 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      611 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      612 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      613 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      614 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      615 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      616 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      617 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      618 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      619 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      620 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      621 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      622 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      623 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      624 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      625 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      626 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      627 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      628 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      629 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      630 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      631 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      632 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      633 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      634 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      635 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      636 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      637 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      638 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      639 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      640 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      641 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      642 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      643 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      644 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      645 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      646 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      647 15:frog-eye-leaf-spot 8:brown-spot   +   0.132 
+      648 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      649 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      650 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      651 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      652 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      653 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      654 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      655 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      656 16:diaporthe-pod-&-stem-blight 8:brown-spot   +   0.132 
+      657 17:cyst-nematode 8:brown-spot   +   0.132 
+      658 17:cyst-nematode 8:brown-spot   +   0.132 
+      659 17:cyst-nematode 8:brown-spot   +   0.132 
+      660 17:cyst-nematode 8:brown-spot   +   0.132 
+      661 17:cyst-nematode 8:brown-spot   +   0.132 
+      662 17:cyst-nematode 8:brown-spot   +   0.132 
+      663 17:cyst-nematode 8:brown-spot   +   0.132 
+      664 17:cyst-nematode 8:brown-spot   +   0.132 
+      665 18:2-4-d-injury 8:brown-spot   +   0.132 
+      666 18:2-4-d-injury 8:brown-spot   +   0.132 
+      667 18:2-4-d-injury 8:brown-spot   +   0.132 
+      668 18:2-4-d-injury 8:brown-spot   +   0.132 
+      669 18:2-4-d-injury 8:brown-spot   +   0.132 
+      670 18:2-4-d-injury 8:brown-spot   +   0.132 
+      671 18:2-4-d-injury 8:brown-spot   +   0.132 
+      672 18:2-4-d-injury 8:brown-spot   +   0.132 
+      673 18:2-4-d-injury 8:brown-spot   +   0.132 
+      674 18:2-4-d-injury 8:brown-spot   +   0.132 
+      675 18:2-4-d-injury 8:brown-spot   +   0.132 
+      676 18:2-4-d-injury 8:brown-spot   +   0.132 
+      677 18:2-4-d-injury 8:brown-spot   +   0.132 
+      678 18:2-4-d-injury 8:brown-spot   +   0.132 
+      679 18:2-4-d-injury 8:brown-spot   +   0.132 
+      680 19:herbicide-injury 8:brown-spot   +   0.132 
+      681 19:herbicide-injury 8:brown-spot   +   0.132 
+      682 19:herbicide-injury 8:brown-spot   +   0.132 
+      683 19:herbicide-injury 8:brown-spot   +   0.132 
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.32 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          92               13.47   %
+Incorrectly Classified Instances       591               86.53   %
+Kappa statistic                          0     
+Mean absolute error                      0.0961
+Root mean squared error                  0.2191
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances              683     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.029     diaporthe-stem-canker
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.029     charcoal-rot
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.029     rhizoctonia-root-rot
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.129     phytophthora-rot
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.064     brown-stem-rot
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.029     powdery-mildew
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.029     downy-mildew
+                 1.000    1.000    0.135      1.000    0.237      ?        0.500     0.135     brown-spot
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.029     bacterial-blight
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.029     bacterial-pustule
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.029     purple-seed-stain
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.064     anthracnose
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.029     phyllosticta-leaf-spot
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.133     alternarialeaf-spot
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.133     frog-eye-leaf-spot
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.022     diaporthe-pod-&-stem-blight
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.020     cyst-nematode
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.023     2-4-d-injury
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.012     herbicide-injury
+Weighted Avg.    0.135    0.135    ?          0.135    ?          ?        0.500     0.088     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s   <-- classified as
+  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0 |  a = diaporthe-stem-canker
+  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0 |  b = charcoal-rot
+  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0 |  c = rhizoctonia-root-rot
+  0  0  0  0  0  0  0 88  0  0  0  0  0  0  0  0  0  0  0 |  d = phytophthora-rot
+  0  0  0  0  0  0  0 44  0  0  0  0  0  0  0  0  0  0  0 |  e = brown-stem-rot
+  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0 |  f = powdery-mildew
+  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0 |  g = downy-mildew
+  0  0  0  0  0  0  0 92  0  0  0  0  0  0  0  0  0  0  0 |  h = brown-spot
+  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0 |  i = bacterial-blight
+  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0 |  j = bacterial-pustule
+  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0 |  k = purple-seed-stain
+  0  0  0  0  0  0  0 44  0  0  0  0  0  0  0  0  0  0  0 |  l = anthracnose
+  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0 |  m = phyllosticta-leaf-spot
+  0  0  0  0  0  0  0 91  0  0  0  0  0  0  0  0  0  0  0 |  n = alternarialeaf-spot
+  0  0  0  0  0  0  0 91  0  0  0  0  0  0  0  0  0  0  0 |  o = frog-eye-leaf-spot
+  0  0  0  0  0  0  0 15  0  0  0  0  0  0  0  0  0  0  0 |  p = diaporthe-pod-&-stem-blight
+  0  0  0  0  0  0  0 14  0  0  0  0  0  0  0  0  0  0  0 |  q = cyst-nematode
+  0  0  0  0  0  0  0 16  0  0  0  0  0  0  0  0  0  0  0 |  r = 2-4-d-injury
+  0  0  0  0  0  0  0  8  0  0  0  0  0  0  0  0  0  0  0 |  s = herbicide-injury
+
