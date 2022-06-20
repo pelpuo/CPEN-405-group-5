@@ -1,0 +1,115 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     soybean
+Instances:    683
+Attributes:   36
+              date
+              plant-stand
+              precip
+              temp
+              hail
+              crop-hist
+              area-damaged
+              severity
+              seed-tmt
+              germination
+              plant-growth
+              leaves
+              leafspots-halo
+              leafspots-marg
+              leafspot-size
+              leaf-shread
+              leaf-malf
+              leaf-mild
+              stem
+              lodging
+              stem-cankers
+              canker-lesion
+              fruiting-bodies
+              external-decay
+              mycelium
+              int-discolor
+              sclerotia
+              fruit-pods
+              fruit-spots
+              seed
+              mold-growth
+              seed-discolor
+              seed-size
+              shriveling
+              roots
+              class
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 10
+Within cluster sum of squared errors: 6209.0
+
+Initial starting points (random):
+
+Cluster 0: september,normal,gt-norm,norm,yes,same-lst-two-yrs,whole-field,severe,fungicide,80-89,norm,abnorm,no-yellow-halos,w-s-marg,gt-1/8,absent,absent,absent,abnorm,yes,absent,tan,present,firm-and-dry,absent,none,absent,norm,absent,norm,absent,absent,norm,absent,norm,brown-spot
+Cluster 1: june,lt-normal,gt-norm,norm,yes,same-lst-sev-yrs,whole-field,pot-severe,none,lt-80,norm,abnorm,no-yellow-halos,w-s-marg,gt-1/8,present,absent,absent,norm,yes,absent,dna,absent,absent,absent,none,absent,norm,absent,norm,absent,absent,norm,absent,norm,brown-spot
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                              Cluster#
+Attribute                                Full Data                   0                   1
+                                           (683.0)             (261.0)             (422.0)
+==========================================================================================
+date                                     september                july           september
+plant-stand                                 normal           lt-normal              normal
+precip                                     gt-norm             gt-norm             gt-norm
+temp                                          norm                norm                norm
+hail                                           yes                 yes                 yes
+crop-hist                         same-lst-two-yrs    same-lst-two-yrs    same-lst-sev-yrs
+area-damaged                             low-areas           low-areas         whole-field
+severity                                pot-severe          pot-severe          pot-severe
+seed-tmt                                      none                none                none
+germination                                  80-89               80-89               80-89
+plant-growth                                  norm              abnorm                norm
+leaves                                      abnorm              abnorm              abnorm
+leafspots-halo                     no-yellow-halos              absent     no-yellow-halos
+leafspots-marg                            w-s-marg                 dna            w-s-marg
+leafspot-size                               gt-1/8                 dna              gt-1/8
+leaf-shread                                 absent              absent              absent
+leaf-malf                                   absent              absent              absent
+leaf-mild                                   absent              absent              absent
+stem                                        abnorm              abnorm                norm
+lodging                                        yes                 yes                 yes
+stem-cankers                                absent       above-sec-nde              absent
+canker-lesion                                  dna        dk-brown-blk                 dna
+fruiting-bodies                             absent              absent              absent
+external-decay                              absent              absent              absent
+mycelium                                    absent              absent              absent
+int-discolor                                  none                none                none
+sclerotia                                   absent              absent              absent
+fruit-pods                                    norm                norm                norm
+fruit-spots                                 absent              absent              absent
+seed                                          norm                norm                norm
+mold-growth                                 absent              absent              absent
+seed-discolor                               absent              absent              absent
+seed-size                                     norm                norm                norm
+shriveling                                  absent              absent              absent
+roots                                         norm                norm                norm
+class                                   brown-spot    phytophthora-rot alternarialeaf-spot
+
+
+
+
+Time taken to build model (full training data) : 0.14 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      261 ( 38%)
+1      422 ( 62%)
+
