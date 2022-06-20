@@ -1,0 +1,94 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     soybean
+Instances:    683
+Attributes:   36
+              date
+              plant-stand
+              precip
+              temp
+              hail
+              crop-hist
+              area-damaged
+              severity
+              seed-tmt
+              germination
+              plant-growth
+              leaves
+              leafspots-halo
+              leafspots-marg
+              leafspot-size
+              leaf-shread
+              leaf-malf
+              leaf-mild
+              stem
+              lodging
+              stem-cankers
+              canker-lesion
+              fruiting-bodies
+              external-decay
+              mycelium
+              int-discolor
+              sclerotia
+              fruit-pods
+              fruit-spots
+              seed
+              mold-growth
+              seed-discolor
+              seed-size
+              shriveling
+              roots
+              class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 36 class):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 1.1517   22 canker-lesion
+ 1.0129   15 leafspot-size
+ 0.9852   29 fruit-spots
+ 0.8684   13 leafspots-halo
+ 0.8535   21 stem-cankers
+ 0.8504   14 leafspots-marg
+ 0.8437   28 fruit-pods
+ 0.6918   19 stem
+ 0.6715    1 date
+ 0.6265   11 plant-growth
+ 0.5853    3 precip
+ 0.5392   35 roots
+ 0.5245   26 int-discolor
+ 0.4829   24 external-decay
+ 0.4808    7 area-damaged
+ 0.4241    4 temp
+ 0.4133   30 seed
+ 0.3614   18 leaf-mild
+ 0.3568   12 leaves
+ 0.3517   23 fruiting-bodies
+ 0.3432   31 mold-growth
+ 0.3106    8 severity
+ 0.2981   33 seed-size
+ 0.2862    2 plant-stand
+ 0.2688   32 seed-discolor
+ 0.2629   16 leaf-shread
+ 0.2465   17 leaf-malf
+ 0.2173   34 shriveling
+ 0.1883   27 sclerotia
+ 0.0987   20 lodging
+ 0.0787    6 crop-hist
+ 0.0784    5 hail
+ 0.0742    9 seed-tmt
+ 0.0554   10 germination
+ 0.0461   25 mycelium
+
+Selected attributes: 22,15,29,13,21,14,28,19,1,11,3,35,26,24,7,4,30,18,12,23,31,8,33,2,32,16,17,34,27,20,6,5,9,10,25 : 35
+

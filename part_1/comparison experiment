@@ -1,0 +1,21 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   1
+Resultsets: 3
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       08/06/2022, 2:43 pm
+
+
+Dataset                   (1) trees.Ra | (2) meta. (3) bayes
+------------------------------------------------------------
+soybean                  (100)   93.18 |   85.61 *   92.94  
+------------------------------------------------------------
+                               (v/ /*) |   (0/0/1)   (0/1/0)
+
+
+Key:
+(1) trees.RandomForest '-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(2) meta.Bagging '-P 100 -S 1 -num-slots 1 -I 10 -W trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0' -115879962237199703
+(3) bayes.NaiveBayes '' 5995231201785697655
+
