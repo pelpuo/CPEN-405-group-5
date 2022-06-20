@@ -39,6 +39,8 @@ Recently, python has become one of the primary languages, equipped by programmer
 
 The task which was accomplished in this project, involved developing a machine learning algorithm which was efficient at predicting stock prices. This was done using the python programming language, and a graphical interface was to be developed to serve as a medium for user input as well as visualisation of results.
 
+Hosted app: https://cpen405g5.herokuapp.com/
+
 ### Steps To Run
 * Install python on your computer if not already installed
 * Navigate to part_3
