@@ -16,6 +16,7 @@ This repository contains the project files of Group 5, for the CPEN 405 capstone
 
 ## Machine Learning
 PART 1 is mainly about machine learning using WEKA. The project's goal is to gain practical experience with machine learning methods by using software such as WEKA to solve real-world data mining problems, as well as to gain a better understanding of some of the algorithmic issues that arise when designing and applying various machine learning algorithms. For our experiments, we used 10-fold cross validation with 5 classification schemes for Soybean Disease Diagnosis. After which, we used the WEKA  Experiment Paired Corrected T-Tester to compare the classification schemes for their performance. 
+
 The dataset used was Soybean, with its training and test database combined into a single file, from the UCI Machine Learning Repository, and 5 classification schemes were applied to it for evaluation. These data sets were selected because they are large enough to allow moderate size train and validation sets, and still have data left for large final test sets. It proved to be the best fit for the constraints provided in the instructions given.
 
 ### Steps To Run
@@ -33,7 +34,9 @@ The drive to achieve better or be the best in one field or another is the concep
 
 ## Predicting Stock Prices
 Artificial intelligence is the brains behind a lot of technological innovations such as natural language processing, speech recognition, computer vision, machine translation as well as pose detection. 
+
 Recently, python has become one of the primary languages, equipped by programmers as they venture into the world of developing intelligent machines. This is due to its readability as well as its numerous libraries, which allow the programmer to focus more on the logic on the artificial intelligence algorithm, rather than the correct procedures and syntaxes for implementing lower level functions.
+
 The task which was accomplished in this project, involved developing a machine learning algorithm which was efficient at predicting stock prices. This was done using the python programming language, and a graphical interface was to be developed to serve as a medium for user input as well as visualisation of results.
 
 ### Steps To Run
